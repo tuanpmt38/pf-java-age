@@ -7,7 +7,7 @@ public class Age {
         year = sc.nextInt();
         age = 2018 - year;
         if (year >= 2018)
-            System.out.println("Enter false");
+            System.out.println("Enter false:");
         else
             System.out.println("Display Age:" + age);
     }
